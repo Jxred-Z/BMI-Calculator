@@ -19,10 +19,10 @@ result_of_height = convert_cm_to_in(#insert_a_number_here)
 #part 3
 # American system BMI is = lbs*703/height**2
 BMI = result_of_weight*703/result_of_height**2 
-  if  BMI > 25.0:
+if  BMI > 25.0:
   print ("Overweight")
-  elif 18.5 < BMI < 24.9:
+elif 18.5 < BMI < 24.9:
   print ("Healthy")
-  else:
+else:
   print ("Underweight")
   
