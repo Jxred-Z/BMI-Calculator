@@ -20,3 +20,4 @@ elif 18.5 < BMI < 24.9:
   print ("Healthy")
 else:
   print ("Underweight")
+print ("Your bmi is " + BMI)
