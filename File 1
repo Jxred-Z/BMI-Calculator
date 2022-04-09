@@ -1,23 +1,19 @@
 #body mass index is calculated by kg/m^2 where kg is a person's weight in kilograms and m^2 is their heigh in meteres squared
 #for meters squared take centimeters convert to meters then multiply by itself
 #a BMI of 25.0 is more overweight while the healthy range is 18.5 to 24.9 BMI
-#the goal of this script is 3 things: convert kg to pounds, convert centimeters to meters to meters squared to inches, calculate bmi
-#to calculate pounds and inches into bmi it is lbs * 703/ height**2
+# American system BMI is = lbs*703/height**2
 
-#part 1
+#this function converts kg to lbs 
 def convert_kg_to_lbs(kg):
   conversion = kg * 2.20
   return conversion
 result_of_weight = convert_kg_to_lbs(int(input("Enter weight in kg: ")))
-
-#part 2
+#this function converts cm to in
 def convert_cm_to_in(cm):
   conversion_2 = cm * 0.39
   return conversion_2
-result_of_height = convert_cm_to_in(int(input("Enter weight in kg: ")))
-
-#part 3
-# American system BMI is = lbs*703/height**2
+result_of_height = convert_cm_to_in(int(input("Enter height in cm: ")))
+#the following conditional takes the output of both functions, places these variables into the bmi formula, and then states the condition of the bmi
 BMI = result_of_weight*703/result_of_height**2 
 if  BMI > 25.0:
   print ("Overweight")
@@ -25,4 +21,3 @@ elif 18.5 < BMI < 24.9:
   print ("Healthy")
 else:
   print ("Underweight")
-  
