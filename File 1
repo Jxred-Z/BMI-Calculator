@@ -1,4 +1,4 @@
-#body mass index is calculated by kg/m^2 where kg is a person's weight in kilograms and m^2 is their heigh in meteres squared
+#body mass index is calculated by kg/m^2 where kg is a person's weight in kilograms and m^2 is their height in meteres squared
 #a BMI of 25.0 is more overweight while the healthy range is 18.5 to 24.9 BMI
 # The formula BMI is = lbs*703/height**2
 
