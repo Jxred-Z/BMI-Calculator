@@ -8,13 +8,13 @@
 def convert_kg_to_lbs(kg):
   conversion = kg * 2.20
   return conversion
-result_of_weight = convert_kg_to_lbs(#insert_a_number_here)
+result_of_weight = convert_kg_to_lbs(int(input("Enter weight in kg")))
 
 #part 2
 def convert_cm_to_in(cm):
   conversion_2 = cm * 0.39
   return conversion_2
-result_of_height = convert_cm_to_in(#insert_a_number_here)
+result_of_height = convert_cm_to_in(int(input("Enter weight in kg")))
 
 #part 3
 # American system BMI is = lbs*703/height**2
